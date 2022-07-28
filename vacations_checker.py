@@ -26,4 +26,4 @@ def check(date_str):
         monthHoliday = int(dm[1])
         if date(year, month, day) == date(year, monthHoliday, dayHoliday):
             return calendar[holiday]
-    return 'None'
+    return None
